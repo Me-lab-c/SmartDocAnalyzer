@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+/* Upload box */
+.upload-box {
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    padding: 40px;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    border-color: #3b82f6;
+}
+
+.upload-box.dragover {
+    border-color: #2563eb;
+    background: #eef4ff;
+}
+
+/* Button */
+.analyze-btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #9bb7e0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.analyze-btn:hover {
+    background: #7da2d6;
+}
+
+/* Cards */
+.card {
+    margin-top: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    color: #2c3e50;
+}
+
+/* Summary formatting */
+.summary-text {
+    white-space: pre-wrap;
+    line-height: 1.7;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Error */
+.error-box {
+    background: #ffe6e6;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
